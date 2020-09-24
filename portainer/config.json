@@ -1,11 +1,11 @@
 {
-  "name": "Portainer",
+  "name": "PortainerX",
   "version": "dev",
-  "slug": "portainer",
-  "description": "Manage your Docker environment with ease",
-  "url": "https://github.com/hassio-addons/addon-portainer",
+  "slug": "portainerx",
+  "description": "Manage your Docker environment with ease from the Web UI",
+  "url": "https://github.com/devnatiomemoriae/addon-portainer",
   "advanced": true,
-  "ingress": true,
+  "ingress": false,
   "ingress_port": 1337,
   "startup": "services",
   "panel_icon": "mdi:docker",
@@ -14,10 +14,12 @@
   "init": false,
   "map": ["ssl"],
   "ports": {
-    "8000/tcp": null
+    "8000/tcp": null,
+    "9000/tcp": null
   },
   "ports_description": {
     "8000/tcp": "Edge Agent Api (Enable when managing remote edge agents)"
+    "9000/tcp": "Web Agent UI"
   },
   "boot": "auto",
   "hassio_api": true,
