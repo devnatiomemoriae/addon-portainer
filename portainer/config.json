@@ -2,7 +2,7 @@
   "name": "PortainerX",
   "version": "dev",
   "slug": "portainerx",
-  "description": "Manage your Docker environment with ease and freedom",
+  "description": "Manage your Docker environment with ease and freedom!",
   "url": "https://github.com/devnatiomemoriae/addon-portainer",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:9000]",
   "ingress": true,
@@ -33,7 +33,7 @@
     "ssl": true,
     "certfile": "fullchain.pem",
     "keyfile": "privkey.pem",
-    "hide_hassio_containers": false
+    "hide_hassio_containers": false,
     "keyfile": "privkey.pem"
   },
   "schema": {
